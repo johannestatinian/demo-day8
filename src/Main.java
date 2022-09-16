@@ -1,5 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Dag 8/20");
+        String sayHello = "Hej";
+        System.out.println(sayHello);
+
+        Animal horse1 = new Animal(4,"Åke", "Häst");
+        Animal horse2 = new Animal(3);
+        Animal horse3 = new Animal("Häst");
+
+
+        System.out.println(horse1.getAge());
     }
 }
